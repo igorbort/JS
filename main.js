@@ -1,17 +1,8 @@
-
-
-var i = 1;
-var sum = 0;
-while (i <= 100) {
-    i++;
-    sum += i;
+var summa = 0;
+for(var i = 1; i <= 100; i++){
+    if (i % 2 && i % 3) {
+        summa += i;
+    }
 }
+console.log(summa);
 
-console.log(sum);
-
-var result=0;
-for (var i = 1; i <= 100; i++)
-{
-    result = result + i;
-}
-console.log(result);
